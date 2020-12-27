@@ -4,7 +4,8 @@
   "description": "Project To Learn Webdriver IO",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio wdio.conf.js"
+    "test": "npx wdio wdio.conf.js",
+    "login-test": "npx wdio wdio.conf.js --suite login"
   },
   "keywords": [
     "wdio",
