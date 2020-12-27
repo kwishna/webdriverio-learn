@@ -1,0 +1,28 @@
+{
+  "name": "wdio_self_learn",
+  "version": "1.0.0",
+  "description": "Project To Learn Webdriver IO",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js"
+  },
+  "keywords": [
+    "wdio",
+    "automation"
+  ],
+  "author": "Krishna Kumar Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.7.2",
+    "@wdio/cli": "^6.8.0",
+    "@wdio/cucumber-framework": "^6.8.0",
+    "@wdio/local-runner": "^6.8.0",
+    "@wdio/selenium-standalone-service": "^6.8.0",
+    "@wdio/spec-reporter": "^6.7.0",
+    "@wdio/sync": "^6.8.0",
+    "allure-commandline": "^2.13.0",
+    "chromedriver": "^86.0.0",
+    "selenium-standalone": "^6.20.1",
+    "wdio-chromedriver-service": "^6.0.4"
+  }
+}
